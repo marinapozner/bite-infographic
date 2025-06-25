@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BITE - קהילה ויצירה: אינפוגרפיקה</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray-blue background */
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1.5rem;
+            background-color: #ffffff;
+            border-radius: 1.5rem; /* More rounded corners */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Softer shadow */
+        }
+        .section-title {
+            font-size: 1.75rem; /* Larger title */
+            font-weight: 700;
+            color: #4a5568; /* Darker gray */
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        .card {
+            background-color: #f7fafc; /* Lighter card background */
+            padding: 1.5rem;
+            border-radius: 1rem; /* Rounded corners for cards */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtle card shadow */
+            margin-bottom: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem; /* Space between elements in card */
+        }
+        .icon-wrapper {
+            background-color: #e2e8f0; /* Light icon background */
+            border-radius: 9999px; /* Circle */
+            padding: 0.75rem;
+            width: 3rem; /* Fixed width for icon circle */
+            height: 3rem; /* Fixed height for icon circle */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0; /* Prevent shrinking */
+        }
+        .icon {
+            font-size: 1.5rem;
+            color: #2c5282; /* Darker blue for icon */
+        }
+        .button {
+            display: inline-block;
+            background-color: #4299e1; /* Blue button */
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.75rem; /* Rounded button */
+            text-decoration: none;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #3182ce; /* Darker blue on hover */
+        }
+        .link {
+            color: #4299e1; /* Blue link */
+            text-decoration: underline;
+        }
+        /* The .logo-placeholder class is now unused as the div is removed. */
+    </style>
+</head>
+<body class="p-4 sm:p-6 md:p-8">
+    <div class="container">
+        <!-- Header Section -->
+        <header class="text-center mb-6">
+            <!-- The logo placeholder div has been removed as requested. -->
+            <h1 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-2">BITE: קהילה ויצירה</h1>
+            <p class="text-lg text-gray-600">מרחב להגשמת חלומות קטנים ולהשפעה גדולה דרך אמנות.</p>
+        </header>
+
+        <!-- Main Sections Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <!-- Section 1: עזרה הדדית ופרויקט 'סנדוויץ' של תקווה' -->
+            <div class="card">
+                <div class="flex items-center gap-4 mb-3">
+                    <div class="icon-wrapper"><span class="icon">🏠</span></div>
+                    <h2 class="text-xl font-semibold text-gray-700">תמיכה הדדית ופרויקט 'סנדוויץ' של תקווה'</h2>
+                </div>
+
+                <div class="flex items-start gap-3">
+                    <div class="icon-wrapper bg-red-100"><span class="icon text-red-600">💔</span></div>
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-600">צריכה עזרה?</h3>
+                        <p class="text-gray-600">אם את או יוצרת אחרת זקוקה לעזרה דחופה (נזק לבית, צורך מיידי), שלחי לי הודעה בפרטי.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                    <div class="icon-wrapper bg-green-100"><span class="icon text-green-600">🥪</span></div>
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-600">חוזרות ליצירה: 'סנדוויץ' של תקווה'</h3>
+                        <p class="text-gray-600">צרי סנדוויץ' (אמיתי/קונספטואלי) שמחמם את הלב, בכל מדיום (ציור, כתיבה, סאונד, וידאו ועוד) בגודל גלויה עד A4.</p>
+                        <ul class="list-disc list-inside text-gray-600 mt-2">
+                            <li><strong class="text-gray-700">מכירה:</strong> היצירות יוצעו למכירה בספטמבר/אוקטובר בפרויקט "סנדוויצ'ים של אהבה" בת"א.</li>
+                            <li><strong class="text-gray-700">ערך:</strong> הזדמנות ליצירה משמעותית ושיח בין-דורי.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-4">
+                    <h3 class="text-lg font-medium text-gray-700">איך שולחים יצירה?</h3>
+                    <ul class="list-none space-y-2 mt-2">
+                        <li>
+                            <p class="text-gray-600">1. <strong class="text-gray-700">קובץ של היצירה:</strong> שלחו לתיקייה:
+                                <a href="https://drive.google.com/drive/folders/1nd28j7uqIGTu9s_z4zoOVPqG-l-jzYT?usp=sharing" target="_blank" class="link">תיקיית דרייב</a>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-gray-600">2. שלחו מייל עם פרטיכן ופרטי היצירה:
+                                <a href="mailto:letstalkaboutbreadandbutter@gmail.com" class="link">letstalkaboutbreadandbutter@gmail.com</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Section 2: מפגשי "פרלמנטים יומיומיים" -->
+            <div class="card">
+                <div class="flex items-center gap-4 mb-3">
+                    <div class="icon-wrapper"><span class="icon">💬</span></div>
+                    <h2 class="text-xl font-semibold text-gray-700">מפגשי "פרלמנטים יומיומיים"</h2>
+                </div>
+
+                <p class="text-gray-600 mb-3">בהמשך למחקר שלי על "ארוחות משותפות כפרקטיקה באמנות לשינוי", אני יוזמת סדרת מפגשים אינטימיים.</p>
+
+                <div class="flex items-start gap-3">
+                    <div class="icon-wrapper bg-purple-100"><span class="icon text-purple-600">🍽️</span></div>
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-600">מפגש ראשון: יולי | בביתי</h3>
+                        <p class="text-gray-600">ארוחת ערב סביב שולחן ערוך, לשיח עמוק ויצירה משותפת.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                    <div class="icon-wrapper bg-yellow-100"><span class="icon text-yellow-600">💡</span></div>
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-600">נושא הדיון:</h3>
+                        <p class="text-gray-600">"מה מפריע לי בעולם או בסביבה הפרטית שלי, ואיך נוכל לחולל שינוי דרך אמנות?"</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                    <div class="icon-wrapper bg-blue-100"><span class="icon text-blue-600">👥</span></div>
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-600">קבוצה אינטימית:</h3>
+                        <p class="text-gray-600">"שבט" של 12 נשים יוצרות. אני בוחרת בקפידה את המשתתפות ליצירת קבוצה מגוונת ורלוונטית.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-start gap-3">
+                    <div class="icon-wrapper bg-pink-100"><span class="icon text-pink-600">📚</span></div>
+                    <div>
+                        <h3 class="text-lg font-medium text-gray-600">תוצרים והשפעה:</h3>
+                        <p class="text-gray-600">כל מפגש יתועד, והתוצרים ישמשו בסיס לתערוכה עתידית מול קובעי מדיניות. המשתתפות ייהנו מ:</p>
+                        <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                            <li><strong class="text-gray-700">חיבור אנושי עמוק ויצירת קשרים:</strong> בניית רשת יחסים, חיבור אמיתי, אחווה ושיתוף הדדי.</li>
+                            <li><strong class="text-gray-700">תחושת שייכות וקהילתיות:</strong> יצירת "בית" פתוח, מקלט בטוח, וחוויה של נוחות וחברות.</li>
+                            <li><strong class="text-gray-700">חיבור ליצירה, אותנטיות ונראות:</strong> מרחב לדיאלוג חופשי, חזרה ליצירה, ביטוי עצמי והעצמת קול אישי.</li>
+                            <li><strong class="text-gray-700">קידום דיאלוג ביקורתי ולמידה:</strong> שיח ציבורי, הבנה מעמיקה של סוגיות, הפצת מודעות ולמידת היסטוריות.</li>
+                            <li><strong class="text-gray-700">חוויה סנסורית-גופנית ושינוי תפיסתי:</strong> התנסות רב-חושית, מסרים מוחשיים, מודעות ותובנות חדשות.</li>
+                            <li><strong class="text-gray-700">עידוד פעולה ושינוי תודעתי:</strong> זרז לפעולה, שינוי התנהגותי ותודעתי, הנעת שינוי חברתי.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-4 text-center">
+                    <a href="https://forms.gle/YbgcUupTDhqh2WABA" target="_blank" class="button">רוצה להצטרף למפגש?</a>
+                    <p class="text-sm text-gray-500 mt-2">יש לי כבר הרכב התחלתי, אך אשמח לראות מי עוד מעוניינת.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer / Closing Message -->
+        <footer class="text-center mt-8 text-gray-600 text-sm">
+            <p>בואו נחולל שינוי ונחזק את הקהילה שלנו יחד! ✨</p>
+        </footer>
+    </div>
+</body>
+</html>
